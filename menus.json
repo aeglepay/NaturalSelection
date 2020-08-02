@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Home",
+        "link": "/",
+        "icon": "home",
+        "id": "home"
+    },
+    {
+        "name": "Admin",
+        "link": "admin",
+        "icon": "grid",
+        "id": "dashboard"
+    },
+    {
+        "name": "Brands",
+        "link": "admin/brands",
+        "icon": "layers",
+        "id": "brands"
+    },
+    {
+        "name": "Pages",
+        "link": "admin/pages",
+        "icon": "file-text",
+        "id": "pages"
+    },
+    {
+        "name": "Features",
+        "link": "admin/features",
+        "icon": "framer",
+        "id": "features"
+    },
+    {
+        "name": "Categories",
+        "link": "admin/categories",
+        "icon": "bookmark",
+        "id": "categories"
+    },
+    {
+        "name": "Orders",
+        "link": "#",
+        "icon": "shopping-cart",
+        "id": "orders",
+        "children": [
+            {
+                "name": "All Orders",
+                "link": "admin/orders"
+            },
+            {
+                "name": "Payments",
+                "link": "admin/payments"
+            }
+        ]
+    },
+    {
+        "name": "App Users",
+        "link": "#",
+        "icon": "users",
+        "id": "users",
+        "children": [
+            {
+                "name": "Staff",
+                "link": "admin/users"
+            },
+            {
+                "name": "Customers",
+                "link": "admin/customers"
+            }
+        ]
+    },
+    {
+        "name": "Settings",
+        "id": "settings",
+        "link": "#",
+        "icon": "settings",
+        "children": [
+            {
+                "name": "App Settings",
+                "link": "admin/settings"
+            },
+            {
+                "name": "Menu Settings",
+                "link": "admin/menus"
+            }
+        ]
+    }
+]

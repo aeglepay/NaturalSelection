@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,6 @@ use Illuminate\Http\Request;
 |
 */
 
-
 Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return auth()->user();
+    return $request->user();
 });
-
-Wave::api();
